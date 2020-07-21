@@ -1,6 +1,9 @@
 # Taifa
 
-![Design preview for the REST Countries API with color theme switcher coding challenge](./design/desktop-preview.jpg)
+![Design preview for the REST Countries API with color theme switcher coding challenge](./design/design3.png)
+
+
+![](./design/design1.png)
 
 ## [View Completed Project](https://taifa.netlify.com/)
 
@@ -29,7 +32,7 @@ You can:
 Clone the repository by typing the following code in your terminal.
 
 ```sh
-git clone https://github.com/jeffubayi/taifa.git
+git clone https://github.com/jeffubayi/Taifa.git
 ```
 
 Change into the directory
