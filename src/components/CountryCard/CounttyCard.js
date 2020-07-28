@@ -1,0 +1,1 @@
+//create a country card containing details of the name population,region capital flag
