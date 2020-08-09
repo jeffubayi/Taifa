@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Search from "../../components/Search/Search";
 import Loading from "../../components/Loading/Loading";
 import CountryList from "../../components/CountryList/CountryList";
-import { CountriesGrid, CountriesGridInner } from "./CountriesHome.styles";
+import { CountriesGrid, CountriesGridInner } from "./styles";
 
 const axios = require("axios");
 
