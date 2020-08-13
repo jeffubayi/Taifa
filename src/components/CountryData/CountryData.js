@@ -11,7 +11,7 @@ import {
     BorderCountriesContainer
   } from "./styles";
 
-  import COUNRTYCODES from "../../countrycodes";
+  import COUNTRYCODES from "../../countrycodes";
 
   function BorderCountries({borders}){
       return (
@@ -24,8 +24,8 @@ import {
                       return index < 4;
                   })
                   .map(country=>(
-                      <StyledLink key={country} to={`/country/${COUNTRYCODES[COUNTRY]}`}>
-                          {COUNRTYCODES[country]}
+                      <StyledLink key={country} to={`/country/${COUNTRYCODES[country]}`}>
+                          {COUNTRYCODES[country]}
                       </StyledLink>
                   ))
                   }
@@ -71,7 +71,7 @@ import {
                             {languages && languages.map(language => language.name).join(",")}
                       </li><li>
                             <span>Currencies: </span>
-                            {currencies && currencies.map((currency=>currency.name).join(","))}
+                            {currencies && currencies.map(currency=>currency.name).join(",")}
                       </li>
                   </CountryInfoList>
                   {borders && borders.length > 0 && <BorderCountries borders={borders}/>}
