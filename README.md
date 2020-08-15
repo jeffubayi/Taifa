@@ -65,3 +65,5 @@ The build is minified and the filenames include the hashes.<br>
 ### Deployment
 
 The app is ready to be deployed on Netlify.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/462d7c60-7b37-457c-9723-eb43721526a2/deploy-status)](https://app.netlify.com/sites/hardcore-villani-6e1168/deploys)
