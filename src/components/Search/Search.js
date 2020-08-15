@@ -3,7 +3,7 @@ import React from "react";
 import SearchInput from "../SearchInput/SearchInput";
 import RegionSelect from "../RegionSelect/RegionSelect";
 
-import { SearchArea } from "./Search.styles";
+import { SearchArea } from "./styles";
 
 export default function Search({
   filterCountries,

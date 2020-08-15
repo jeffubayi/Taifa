@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGlobeAmericas } from "react-icons/fa";
 
-import { StyledError } from "./Error.styles";
+import { StyledError } from "./styles";
 
 export const NotFound = ({ text }) => {
   return (
