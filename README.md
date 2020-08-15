@@ -7,11 +7,13 @@
 
 ## [View Completed Project](https://taifa.netlify.com/)
 
+### About:
+
 Get information about countries using the REST Countries API. Built using React, Axios, and styled-components. Includes color theme switcher.
 
-The design was made by [Frontend Mentor](https://www.frontendmentor.io). Their challenges allow you to improve your skills in a real-life workflow.
 
-You can: 
+### Features: 
+
 - See all countries from the API on the homepage
 - Search for a country using an `input` field
 - Filter countries by region
@@ -60,4 +62,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br>
 
-The app is ready to be deployed.
+### Deployment
+
+The app is ready to be deployed on Netlify.
