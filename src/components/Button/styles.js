@@ -11,3 +11,19 @@ export const sharedButtonStyles = css`
   align-items: center;
   transition: background-color 0.2s ease-in-out;
 `;
+export const StyledButton = styled.button`
+  ${sharedButtonStyles}
+  font-size: 16px;
+  font-weight: 300;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  display: inline-flex;
+  &:hover {
+    background-color: ${props => props.theme.hoverBg};
+    color: ${props => props.theme.hoverFg};
+    cursor: pointer;
+  }
+  .icon {
+    margin-right: 8px;
+  }
+`;

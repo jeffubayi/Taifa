@@ -1,9 +1,9 @@
 import React from "react";
 import {FaSearch} from "react-icons/fa";
 
-import {StyledInput, Wrapper} from "styles";
+import {StyledInput, Wrapper} from "./styles";
 
-export default function SearchInput() {
+export default function SearchInput({filterCountries,handleSubmit}) {
     return(
         <Wrapper>
             <form onSubmit = {handleSubmit}>
