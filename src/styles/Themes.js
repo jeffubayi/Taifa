@@ -11,5 +11,5 @@ export const DarkStyles ={
     bg:"hsl(207,26%,17%)",
     fg:"hsl(0,0%,100%)",
     hoverBg:"#fcb316",
-    elements:"hsl(200,15%,8%)",
+    hoverFg:"hsl(200,15%,8%)",
 };
