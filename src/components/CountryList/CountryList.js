@@ -1,6 +1,7 @@
 import React from "react";
 import CountryCard from "../CountryCard/CountryCard";
 
+
 export default function CountryList({
   countries,
   countryQuery,

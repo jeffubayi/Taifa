@@ -1,6 +1,7 @@
 //create a country card containing details of the name population,region capital flag
 import React ,{useEffect} from "react";
 import {Link} from "react-router-dom";
+import LazyLoad from "react-lazyload";
 import { forceCheck } from "react-lazyload";
 import {
     Card,
@@ -13,12 +14,12 @@ import {
 import { queryHelpers } from "@testing-library/react";
 
 export default function CountryCard({country,countryQuery}) {
-    useEffect =>{
+  useEffect (() =>{
         if(countryQuery.length > 0){
             forceCheck();
         }
-    }
-    const {name,population,region,counrty,flag} = country
+    });
+    const {name,population,region,capital,flag} = country
     return (
         <Link to={`/country/${name}`}>
           <Card>

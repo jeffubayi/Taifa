@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styled, { keyframes } from "styled-components";
-import { sharedButtonStyles } from "../Button/Button.styles";
+import { sharedButtonStyles } from "../Button/styles";
 import { Breakpoints } from "../../styles/Breakpoints";
 
 export const fadeIn = keyframes`
